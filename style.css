@@ -1,0 +1,221 @@
+   * {
+       font-family: "Plus Jakarta Sans", sans-serif;
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       min-height: 100vh;
+       background-image: linear-gradient(#ffffff, #ebdcff)
+   }
+
+   img {
+       width: 100%;
+   }
+
+   .btn {
+       background-color: #872BFF;
+       border-radius: 30px;
+       padding: 16px 32px;
+       color: white;
+       cursor: pointer;
+       margin-right: 20px;
+   }
+
+   .btn2 {
+       border-radius: 30px;
+       padding: 16px 32px;
+       cursor: pointer;
+       margin-right: 20px;
+       border: 2px solid #872BFF;
+   }
+
+   #banner {
+       /* margin-top: 100px;
+        margin-bottom: 120px;  
+        margin-left: auto;
+        margin-right: auto; */
+       /*         T     R     B    L
+            margin: 100px 50px 120px 50px;
+                    TB   RL
+        padding: 20px 30px */
+
+
+
+       margin: 100px auto 120px auto;
+       width: 87.5%;
+       border-radius: 35px;
+       border: 2px solid rgba(160, 81, 45, 0.113);
+       padding: 20px 30px;
+       background-color: rgb(255, 255, 255);
+       background-image: url(images/hero-bg.png);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .banner-content * {
+       margin-bottom: 20px;
+   }
+
+   .banner-content {
+       width: 50%;
+   }
+
+   .banner-image {
+       width: 50%;
+   }
+
+   .banner-content h1 {
+       font-size: 70px;
+       font-weight: bold;
+   }
+
+   .banner-content p {
+       font-weight: medium;
+       font-size: 18px;
+       color: #a8a8a8;
+   }
+
+   .banner-content h1 span {
+       color: #f411cf;
+   }
+
+
+   #service,
+   #story,
+   #country,
+   .review {
+       margin: 0px auto 120px auto;
+       width: 90.5%;
+   }
+
+   .heading-content {
+       text-align: center;
+   }
+
+   .heading-content h4 {
+       color: #f411cf;
+       font-weight: bold;
+       font-size: 24px;
+       letter-spacing: 5px;
+       margin-bottom: 20px;
+   }
+
+   .heading-content h2 {
+       font-weight: bold;
+       font-size: 44px;
+       margin-bottom: 30px;
+   }
+
+   #service-card-container {
+       display: flex;
+       justify-content: space-between;
+       gap: 90px;
+
+   }
+
+   .service-card {
+       background-color: white;
+       padding: 60px;
+       text-align: center;
+       border-radius: 30px;
+       max-width: 350px;
+   }
+
+   .service-card img {
+       width: 80px;
+       margin-bottom: 30px;
+   }
+
+   .service-card h2 {
+       font-weight: semibold;
+       font-size: 27px;
+       margin-bottom: 20px;
+   }
+
+   .service-card p {
+       color: #a8a8a8;
+   }
+
+   .story-card {
+       background-color: white;
+       padding: 40px;
+       border: 24px;
+       display: flex;
+       gap: 20px;
+       border-radius: 30px;
+   }
+
+   .story-content {
+       width: 60%;
+   }
+
+   .story-image {
+       width: 40%;
+   }
+
+   .story-content img {
+       width: 100px;
+   }
+
+   .story-content h2,
+   .story-content p,
+   .story-content img {
+       margin-bottom: 30px;
+   }
+
+   .country-card-container {
+       display: flex;
+       gap: 30px;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-bottom: 60px;
+   }
+
+   .country-card-container h2 {
+       background-color: white;
+       padding: 40px;
+       border-radius: 30px;
+   }
+
+   #country,
+   button {
+       text-align: center;
+   }
+
+   .review {
+       background-color: white;
+       text-align: center;
+       padding: 24px;
+       border-radius: 30px;
+       background-image: url(images/star-reviews.png);
+       background-repeat: no-repeat;
+       background-position-x: right;
+       background-position-y: 130px;
+
+
+
+
+   }
+
+   #review-paragraph {
+       margin-bottom: 54px;
+   }
+
+   #title {
+       color: #979797;
+   }
+
+   footer {
+       display: flex;
+       justify-content: space-between;
+       background-color: #F3F3F3;
+       padding: 10px 20px;
+
+   }
+
+   footer p {
+       margin: 15px;
+   }
